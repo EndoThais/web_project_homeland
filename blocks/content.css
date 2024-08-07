@@ -1,0 +1,50 @@
+.content {
+  width: 100%;
+  display: flex;
+  margin-top: 82px;
+}
+
+.content__column {
+  width: 830px;
+  height: 482px;
+}
+
+.content__column-title {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 1.07;
+  text-align: left;
+  margin: auto;
+}
+
+.content__column__text {
+  margin: 32px 0 0;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.63;
+  text-align: left;
+}
+
+.content__column__quote {
+  font-size: 0.9em;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.41;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.content__column__quote-cite {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.41;
+  text-align: right;
+}
