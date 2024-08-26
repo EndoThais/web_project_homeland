@@ -2,10 +2,21 @@
   max-width: 1440px;
   margin: auto;
   font-family: "Inter";
-  background-color: black;
+  background-color: #2a2c2f;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   padding: 34px 148px;
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 540px) {
+  .page {
+    padding: 0;
+  }
 }
