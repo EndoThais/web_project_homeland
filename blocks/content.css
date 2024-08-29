@@ -1,12 +1,18 @@
 .content {
   width: 100%;
+  margin: 82px auto 0;
   display: flex;
-  margin-top: 82px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 .content__column {
-  width: 100%;
+  width: 830px;
   height: 100%;
+  margin: 0 148px;
+  display: flex;
+  flex-direction: column;
 }
 
 .content__column-title {
@@ -16,11 +22,9 @@
   font-weight: 900;
   line-height: 1.07;
   text-align: left;
-  margin: auto;
 }
 
 .content__column_text {
-  margin: 32px 0 0;
   color: #ffffff;
   font-family: Inter;
   font-size: 16px;
@@ -51,9 +55,9 @@
 
 @media screen and (max-width: 1024px) {
   .content__column {
-    padding: 0 24px 0;
-    width: 100%;
+    width: 90%;
     height: 100%;
+    margin: 0 auto;
   }
 
   .content__column-title {
@@ -61,7 +65,6 @@
     font-size: 45px;
     font-weight: 900;
     line-height: 49px;
-    text-align: left;
   }
 
   .content__column_subtitle {
@@ -69,7 +72,6 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
-    text-align: left;
   }
 
   .content__column_subtitle-autor {
@@ -85,14 +87,13 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 26.08px;
-    text-align: left;
   }
 }
 
 @media screen and (max-width: 540px) {
   .content__column {
-    padding: 0 16px 0;
-    width: 100%;
+    padding: 0;
+    width: 90%;
     height: 100%;
   }
 
